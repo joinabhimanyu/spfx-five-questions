@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "informatica-five-questions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/informaticaFiveQuestions/InformaticaFiveQuestionsWebPart.js",
+          "manifest": "./src/webparts/informaticaFiveQuestions/InformaticaFiveQuestionsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InformaticaFiveQuestionsWebPartStrings": "lib/webparts/informaticaFiveQuestions/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Life 5 Questions With",
+    "id": "21fae00c-8d2d-478a-8f3d-e5bcc558ad9c",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/informatica-five-questions.sppkg"
+  }
+}

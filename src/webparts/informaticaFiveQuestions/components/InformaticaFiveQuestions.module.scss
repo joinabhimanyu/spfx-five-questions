@@ -1,0 +1,102 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+:global {
+  .ms-Grid {
+    .image-container {
+      cursor: pointer;
+      margin: 0 10px;
+      border: 1px solid #ccc;
+      padding: 0;
+      span {
+        padding: 5px 5px 5px 15px;
+        @include ms-fontSize-l;
+        @include ms-fontWeight-semibold;
+      }
+    }
+  }
+  .ms-Grid-row {
+    padding: 10px 0 10px 2px;
+    .submit-yours-button-container {
+      text-align: right;
+      padding: 2px 5px;
+      margin: 0 14px;
+    }
+    .submit-yours-button-container a {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  .ms-Grid-col {
+    text-align: right;
+  }
+  .ms-modalExample-container {
+    height: 65vh;
+    width: 35vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    .ms-modalExample-header {
+      flex: 1 1 auto;
+      background: $ms-color-themePrimary;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      @include ms-font-xl;
+      @include ms-fontWeight-semibold;
+      padding: 0 28px;
+      min-height: 40px;
+    }
+    .ms-modalExample-header i {
+      position: absolute;
+      right: 23px;
+      cursor: pointer;
+    }
+    .ms-modalExample-body {
+      flex: 4 4 auto;
+      padding: 5px 28px;
+      overflow-y: auto;
+      .ms-TextField-errorMessage {
+        display: none;
+      }
+    }
+    .field-Container {
+      padding: 5px 0;
+    }
+    .field-attachment-input {
+      padding-top: 6px;
+    }
+    .submit-button-container {
+      text-align: right;
+      padding-right: 2px;
+      .ms-Grid-col {
+        padding-left: 0px !important;
+      }
+    }
+    .ms-MessageBar-icon,
+    .ms-MessageBar-text {
+      margin: 8px 0 7px 6px;
+    }
+    .ms-MessageBar {
+      height: 12px;
+      background-color: white;
+    }
+    .field-Container {
+      padding: 10px 0;
+    }
+    .field-Container:nth-last-child(2) .ms-TextField {
+      padding-left: 5px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .ms-modalExample-container {
+      width: 85vw;
+    }
+  }
+  .question {
+    @include ms-font-xl;
+    @include ms-fontWeight-semibold;
+    color: $ms-color-themePrimary
+  }
+  .answer {
+    @include ms-font-m-plus;
+  }
+}

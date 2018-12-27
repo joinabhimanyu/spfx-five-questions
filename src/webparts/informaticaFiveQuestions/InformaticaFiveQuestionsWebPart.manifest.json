@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ebfee136-0db6-4231-82fe-87a3ba117679",
+  "alias": "InformaticaFiveQuestionsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": {
+      "default": "Other"
+    },
+    "title": {
+      "default": "Life 5 Question With"
+    },
+    "description": {
+      "default": "Life Five Questions With "
+    },
+    "officeFabricIconFontName": "View",
+    "properties": {
+      "WebPartTitle": "5 Questions",
+      "ListName": ""
+    }
+  }]
+}

@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "informatica-five-questions",
+    "libraryId": "21fae00c-8d2d-478a-8f3d-e5bcc558ad9c",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
